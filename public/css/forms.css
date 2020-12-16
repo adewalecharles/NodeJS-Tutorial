@@ -2,30 +2,21 @@
   margin: 1rem 0;
 }
 .form-control label,
-.form-control input {
+.form-control input,
+.form-control textarea {
   display: block;
   width: 100%;
+  margin-bottom: 0.25rem;
 }
 
-.form-control input {
-  border: 1px solid#4d4d4d;
+.form-control input,
+.form-control textarea {
+  border: 1px solid#a1a1a1;
   font: inherit;
   border-radius: 2px;
 }
-button {
-  font: inherit;
-  border: 1px solid#4d4d4d;
-  color: #4d4d4d;
-  background: white;
-  border-radius: 3px;
-  cursor: pointer;
-}
 
-button:hover,
-button:active {
-  background-color: #4d4d4d;
-  color: white;
-}
-.btn {
-  
+.form-control input:focus
+.form-control textarea:focus{
+  outline-color: #00695c;
 }
